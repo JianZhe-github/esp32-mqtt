@@ -4,9 +4,9 @@ int pinDHT11 = 21;
 SimpleDHT11 dht11(pinDHT11);
 
 EspMQTTClient client(
-  "Cish_ros",
-  "12345678",
-  "jianzhe.cc",  // MQTT Broker server ip
+  "", //wifiname
+  "", //wifipassword
+  "",  // MQTT Broker server ip
   "admin",   // Can be omitted if not needed
   "0000",   // Can be omitted if not needed
   "dht11",     // Client name that uniquely identify your device
