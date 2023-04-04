@@ -2,9 +2,9 @@
 #include <ArduinoJson.h>
 
 EspMQTTClient client(
-  "Cish_ros",
-  "12345678",
-  "jianzhe.cc",  // MQTT Broker server ip
+  "", //wifiname
+  "", //wifipassword
+  "",  // MQTT Broker server ip
   "admin",   // Can be omitted if not needed
   "0000",   // Can be omitted if not needed
   "relay",     // Client name that uniquely identify your device
