@@ -1,0 +1,8 @@
+{
+    "sketch": "esp32_relay\\esp32_relay.ino",
+    "configuration": "FlashFreq=80,UploadSpeed=921600,DebugLevel=none,EraseFlash=all",
+    "board": "esp32:esp32:nodemcu-32s",
+    "port": "COM6",
+    "output": "build log",
+    "intelliSenseGen": "disable"
+}
