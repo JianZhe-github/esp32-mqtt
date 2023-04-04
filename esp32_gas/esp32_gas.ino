@@ -8,9 +8,9 @@ float lpg, co, smoke;
 MQ2 mq2(pin);
 
 EspMQTTClient client(
-  "Cish_ros",
-  "12345678",
-  "jianzhe.cc",  // MQTT Broker server ip
+  "", //wifiname
+  "", //wifipassword
+  "",  // MQTT Broker server ip
   "admin",   // Can be omitted if not needed
   "0000",   // Can be omitted if not needed
   "gas",     // Client name that uniquely identify your device
